@@ -8,6 +8,8 @@
 cordova plugin add https://github.com/zwlcoding/pg_startvideo
 ```
 
+视频有 3M 可能下载较慢。请耐心等待。
+
 进入ADT刷新资源
 
 找到src下的主文件 （文件名非固定，与你设置的包名相关，比如我这个app的包名为[com.mtel.xxx] ,那么找到 src => com.mtel.xxx => xxx.java 文件）
