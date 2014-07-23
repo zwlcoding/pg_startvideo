@@ -5,7 +5,7 @@
 使用命令行添加插件
 
 ```
-cordova plugin add https://github.com/zwlcoding/pg_jpush.git
+cordova plugin add https://github.com/zwlcoding/pg_startvideo
 ```
 
 进入ADT刷新资源
