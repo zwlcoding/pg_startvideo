@@ -54,22 +54,6 @@ public class 你的文件名 extends CordovaActivity implements OnClickListener
 		
         super.onCreate(savedInstanceState);//默认存在
         this.init();//默认存在，但这里把 super 改成了 this
-			
-			
-        this.appView.setWebViewClient(new CordovaWebViewClient(this, this.appView) {
-            @Override
-            public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                if(url.contains("shoulduseexternalbrowser:")) {
-                     url = url.replace("shoulduseexternalbrowser:", "");
-                     Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                     startActivity(browserIntent);
-                     return true;
-                } else {
-                 return super.shouldOverrideUrlLoading(view, url);
-                }
-            }
-        });
-        
 		
         super.loadUrl(Config.getStartUrl());//默认存在
 
