@@ -19,8 +19,8 @@
 				<string name="skip">跳过</string>
 			</config-file> 
 
-			<source-file src="libs/video.xml" target-dir="libs/res/layout"/>
-			<source-file src="libs/start.mov" target-dir="libs/res/raw"/>
+			<source-file src="libs/video.xml" target-dir="res/layout/"/>
+			<source-file src="libs/start.mov" target-dir="res/raw/"/>
 		</platform>
 		
 </plugin>	

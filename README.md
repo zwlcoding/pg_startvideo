@@ -93,7 +93,7 @@ public class 你的文件名 extends CordovaActivity implements OnClickListener
 	        }
 	    });  
 
-	    String path = "android.resource://" + getPackageName() + "/" + R.raw.startapp;//startapp为视频的名称可以自行进入res/raw目录修改
+	    String path = "android.resource://" + getPackageName() + "/" + R.raw.start;//startapp为视频的名称可以自行进入res/raw目录修改
 	    videoView.setVideoURI(Uri.parse(path));	
 	    videoView.requestFocus();
 	    videoView.start();
