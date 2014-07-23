@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="phonegap.startapp.video" 
+        version="1.0">
+		
+		<name>startapp play video</name>
+		<description>启动页播放视频文件</description>
+		<author>Por_Zhang@mtelnet.com</author>
+		
+		<engines>
+			<engine  name="cordova" version=">=3.0"/>
+		</engines>
+		
+		<!-- android -->
+		<platform name="android">
+			
+			<config-file target="res/values/strings.xml" parent="/resources">
+				<string name="skip">跳过</string>
+			</config-file> 
+
+			<source-file src="libs/video.xml" target-dir="libs/res/layout"/>
+			<source-file src="libs/start.mov" target-dir="libs/res/raw"/>
+		</platform>
+		
+</plugin>	
